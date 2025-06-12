@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+groq = "*"
+streamlit = "*"
+pandas = "*"
+chromadb = "*"
+langchain = "*"
+langchain-community = "*"
+langchain-groq = "*"
+python-dotenv = "*"
+beautifulsoup4 = "*"
+html2text = "*"
+requests = "*"
+selenium = "*"
+webdriver-manager = "*"
+unstructured = {extras = ["all-docs"], version = "*"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
